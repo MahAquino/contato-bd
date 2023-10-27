@@ -6,8 +6,8 @@ USE contato;
 
 -- criar uma tabela chamada Lista com 3 campos 
 CREATE TABLE Lista (
-nome VARCHAR (50) NOT NULL,
 ID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+nome VARCHAR (50) NOT NULL,
 Telefone VARCHAR (11) NOT NULL
 );
 
