@@ -18,4 +18,5 @@ INSERT INTO Lista (nome, Telefone, UF) VALUES
 	('Verena Aquino', '11965024488', 'MG'),
 	('Heyke Cabezas', '11925698511', 'DF');
     
-    -- Escrever novo comando para apresentar o total de 
+    -- Selecionar as pessoas que sao do estado de MG
+    SELECT * FROM Lista WHERE UF = 'MG';
